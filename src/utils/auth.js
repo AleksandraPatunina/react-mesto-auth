@@ -1,5 +1,5 @@
 //Базовый URL
-const baseUrl = 'https://auth.nomoreparties.co/'
+const baseUrl = 'https://auth.nomoreparties.co'
 
 function getResponseData(res) {
     return res.ok ? res.json() : Promise.reject(`${res.status} ${res.statusText}`)
