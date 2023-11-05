@@ -1,0 +1,14 @@
+.elements {
+  margin: 0;
+  max-width: calc(100% - 2 * 200px);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .elements {
+    max-width: calc(100% - 2 * 19px);
+    margin-left: 19px;
+    margin-right: 19px;
+  }
+}

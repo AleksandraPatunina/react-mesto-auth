@@ -1,0 +1,23 @@
+.header__email-container {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 6px;
+    transition: visibility .2s linear, height .2s linear;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .header__email-container {
+        visibility: hidden;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: 0;
+        padding-top: 0;
+        overflow: hidden;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+        position: absolute;
+        border-bottom: 1px solid rgba(54, 54, 54, .6);
+    }
+}

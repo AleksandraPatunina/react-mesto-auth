@@ -1,0 +1,10 @@
+.popup__container_edit-profile {
+  min-width: 430px;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .popup__container_edit-profile {
+    min-width: 282px;
+    min-height: 190px;
+  }
+}

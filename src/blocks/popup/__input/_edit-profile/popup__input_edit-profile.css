@@ -1,0 +1,7 @@
+.popup__input_edit-profile{
+  margin-top: 0;  
+}
+
+.popup__input_edit-profile:last-of-type {
+  margin-top: 0px;
+}

@@ -1,0 +1,20 @@
+.login__button {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.21;
+    cursor: pointer;
+    transition: background-color .3s linear;
+}
+
+.login__button_disable {
+    color: grey;
+    border: 1px solid ;
+    opacity: .5;
+    cursor: none;
+    pointer-events: none;
+}

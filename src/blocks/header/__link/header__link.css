@@ -1,0 +1,16 @@
+.header__link {
+    margin-top: 6px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.21;
+    text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .header__link {
+        font-size: 14px;
+        margin-right: 9.375%;
+        margin-top: 1.875%;   
+    }
+}

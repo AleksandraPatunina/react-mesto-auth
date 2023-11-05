@@ -1,0 +1,14 @@
+.footer {
+  margin: 66px 200px 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: calc(100% - 2 * 200px);
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .footer {
+    margin: 48px 19px 0;
+    padding: 0;
+    max-width: calc(100% - 2 * 19px);
+  }
+}

@@ -1,0 +1,12 @@
+.page {
+  font-family: "Inter", "Arial", sans-serif;
+  color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  /*сглаживание текста*/
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  /*подгонка размера текста */
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+ background-color: #000000;
+}

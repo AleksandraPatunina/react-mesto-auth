@@ -1,0 +1,18 @@
+.form__input-error {
+  /* display: none; */
+  margin: 0;
+  margin-top: 5px;
+  margin-left: 36px;
+  /*opacity: 0;*/
+  /*width: fit-content;*/
+  color: #ff0000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  position: absolute;
+  top:141px;
+}
+
+.form__input-error:last-of-type{
+  top:200px;
+}

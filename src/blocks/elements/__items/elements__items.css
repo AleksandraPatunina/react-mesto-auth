@@ -1,0 +1,16 @@
+.elements__items {
+  margin: 50px auto 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 282px);
+  gap: 20px 17px;
+  justify-content: center;
+  list-style: none;
+  color: #000000;
+}
+
+@media (min-width: 320px) and (max-width: 990px) {
+  .elements__items {
+    margin: 36px auto 0;
+  }
+}
