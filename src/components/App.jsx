@@ -250,7 +250,8 @@ function App() {
             <Route path='/sign-in' element={
               <>
                 <Header name='signin' />
-                <Main name='signin' handleLogin={handleLogin} />
+                <Main name='signin' handleLogin={handleLogin} 
+                />
               </>
             } />
             <Route path='*' element={<Navigate to='/' replace />} />

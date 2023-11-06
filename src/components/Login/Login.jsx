@@ -1,5 +1,5 @@
 import RegistrationSection from '../RegistrationSection/RegistrationSection';
-import useFormValidation from '../../utils/useFormValidation';
+import useFormValidation from '../../hooks/useFormValidation';
 import Input from '../Input/Input';
 
 export default function Login({ handleLogin, name}) {

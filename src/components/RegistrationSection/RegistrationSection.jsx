@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function RegistrationSection({ name, children, onSubmit, isValid }) {
 
     return (
-      <section className="login page__login">
-        <h2 className="login__title">{name === 'signup' ? 'Регистрация' : 'Вход'}</h2>
+    <div className="login page__login">
+        <h1 className="login__title">{name === 'signup' ? 'Регистрация' : 'Вход'}</h1>
         <Form
           name={name}
           titleButton={name === 'signup' ? 'Регистрация' : 'Войти'}
@@ -16,6 +16,6 @@ export default function RegistrationSection({ name, children, onSubmit, isValid 
         />
         {name === 'signup' && <p className="login__subtitle"> Уже зарегистрированы? 
         <Link to={'/sign-in'} className='login__subtitle-link'> Войти</Link></p>}
-      </section>
+      </div>
     )
   }

@@ -1,18 +1,19 @@
 .form__input-error {
-  /* display: none; */
-  margin: 0;
-  margin-top: 5px;
-  margin-left: 36px;
-  /*opacity: 0;*/
-  /*width: fit-content;*/
-  color: #ff0000;
-  font-weight: 400;
-  font-size: 12px;
+  /* margin: 0;
   line-height: 15px;
   position: absolute;
-  top:141px;
+  top:141px; */
+  margin-top: 5px;
+  margin-left: 27px;
+  display: block;
+  color: #FF0000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+  min-height: 29.04px;
 }
 
 .form__input-error:last-of-type{
-  top:200px;
+  /* top:200px; */
+  margin-bottom: 10px;
 }
